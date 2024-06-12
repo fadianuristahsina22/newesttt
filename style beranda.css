@@ -1,0 +1,53 @@
+header {
+            background-color: #333; /* Warna latar belakang */
+            color: white; /* Warna teks */
+            padding: 20px; /* Padding untuk memberikan ruang di sekitar teks */
+            display: flex; /* Menjadikan header sebagai flex container */
+            justify-content: space-between; /* Membuat ruang antara elemen di dalam flex container */
+            align-items: center; /* Pusatkan vertikal konten di dalam header */
+        }
+
+        nav a {
+            color: white; /* Warna teks tautan */
+            text-decoration: none; /* Menghapus garis bawah dari tautan */
+            margin: 0 10px; /* Margin antara tautan */
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Garis bawah pada tautan saat dihover */
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333; /* Warna latar belakang footer */
+            color: white; /* Warna teks footer */
+            padding: 20px; /* Padding untuk memberikan ruang di sekitar teks footer */
+            text-align: center; /* Teks rata tengah */
+            margin-top: 50px; /* Jarak antara konten utama dan footer */
+        }
